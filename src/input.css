@@ -319,5 +319,85 @@ button{
     margin-top: 7px;
 }
 
+.mains{
+  width: 100%;
+  max-width: 1112px;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cards{
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  margin: auto;
+  margin-bottom: 5rem;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+.bodi{
+  background: rgba(0,0,0,0.8);
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  position: absolute;
+  height: 30px;
+  transition: 1s;
+}
+.bodi::before{
+  content: 'See more...';
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: #fff;
+  width: 45%;
+  height: 30px;
+  padding: 0 0 0 8px;
+  transition: 1s;
+  border-radius: 0 0 15px 0;
+  background-color: #159a9c;
+}
+.cards:hover .bodi{
+  height: 60%;
+}
+.contents{
+  padding: 2rem;
+}
+.cards:hover .bodi::before{
+  width: 80%;
+}
+button{
+  background: #b4bec9;
+  color: #002333;
+  border: 0px;
+  border-radius: 6px;
+  padding: .5rem 1rem;
+  margin-top: 6px;
+}
+.juduls{
+  color: #fff;
+  margin-top: 2rem;
+  font-size: large;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.paragrafs{
+  color: #fff;
+  margin-top: 7px;
+  margin-left: 0.5rem;
+}
+
+
 
 
